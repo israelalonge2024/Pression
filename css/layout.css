@@ -32,5 +32,10 @@ nav {
 .hero-main {
   padding-top: 70px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hero-main-text {
+  padding-top: 70px;
 }
