@@ -35,6 +35,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: start;
+
   padding-right: 90px;
 }
 /* BIG IMAGE */
@@ -47,6 +48,7 @@ nav {
 .hero-main-text {
   padding-left: 40px;
   padding-top: 70px;
+  position: relative;
 }
 
 .time-to {
@@ -68,4 +70,18 @@ nav {
   position: absolute;
   top: 50px;
   right: 2px;
+}
+
+.hero-footer {
+  position: relative;
+  bottom: 10px;
+
+  top: 340px;
+}
+
+.hero-footer p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #222020;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
