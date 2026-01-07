@@ -49,9 +49,10 @@ nav {
 }
 
 .newhome {
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 150px;
   top: 160px;
   padding-left: 40px;
 }
