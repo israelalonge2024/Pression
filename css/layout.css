@@ -93,5 +93,7 @@ nav {
 
 .socials {
   position: absolute;
-  right: 100px;
+  right: 90px;
+  display: flex;
+  gap: 20px;
 }
