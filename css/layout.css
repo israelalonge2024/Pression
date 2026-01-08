@@ -191,6 +191,8 @@ nav {
 .project-head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .latest {
@@ -201,4 +203,24 @@ nav {
 }
 
 .project-text {
+  display: flex;
+}
+
+.project-p {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+  font-family: serif;
+  padding-top: 8px;
+}
+
+.three-project-image {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.small2 {
+  width: 500px;
+  height: 300px;
 }
