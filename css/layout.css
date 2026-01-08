@@ -108,23 +108,27 @@ nav {
 
 /* SERVICE SECTION */
 .service {
+  display: flex;
   min-height: 100vh;
   background-color: rgba(29, 29, 34, 0.925);
   color: aliceblue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
 }
 
 .service-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex: 1 1;
   align-items: start;
-  padding: 90px;
+  padding: 100px;
   padding-top: 120px;
 }
 .service-right {
-  flex: 1;
+  flex: 1.9;
+  padding-right: 10px;
+  gap: 1px;
 }
 
 .service-text {
@@ -132,7 +136,7 @@ nav {
   align-items: start;
 
   gap: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 28px;
 }
 .service-text img {
   padding-top: 10px;
@@ -150,17 +154,41 @@ nav {
 
 .ex h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .ex p {
   font-family: cursive;
   opacity: 0.7;
   font-size: 14px;
+  display: block;
   word-spacing: 2px;
 }
 
 .service-h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
+}
+
+.service-footer-img {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+}
+
+/* PROJECT */
+
+.project {
+  min-height: 100vh;
+  background-color: var(--primary-background-color);
+  color: black;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  background-color: var();
+}
+
+.project-head {
+  display: flex;
+  justify-content: space-around;
 }
