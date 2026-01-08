@@ -190,10 +190,15 @@ nav {
 
 .project-head {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .latest {
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: 700;
+  opacity: 0.8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-text {
 }
