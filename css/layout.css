@@ -192,3 +192,8 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
+.latest {
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
