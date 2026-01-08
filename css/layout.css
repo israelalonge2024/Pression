@@ -104,3 +104,22 @@ nav {
 .socials a:hover {
   border-bottom: none;
 }
+
+/* SERVICE SECTION */
+.service {
+  min-height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.service-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.service-text {
+  padding: 20px;
+}
