@@ -109,7 +109,7 @@ nav {
 /* SERVICE SECTION */
 .service {
   min-height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgba(29, 29, 34, 0.925);
   color: aliceblue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -117,10 +117,11 @@ nav {
 
 .service-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex: 1 1;
   align-items: start;
   padding: 90px;
+  padding-top: 120px;
 }
 .service-right {
   flex: 1;
@@ -129,10 +130,13 @@ nav {
 .service-text {
   display: flex;
   align-items: start;
+
   gap: 10px;
   padding-bottom: 50px;
 }
-
+.service-text img {
+  padding-top: 10px;
+}
 .service-h1 {
   flex: 1;
 }
@@ -146,8 +150,17 @@ nav {
 
 .ex h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 .ex p {
   font-family: cursive;
   opacity: 0.7;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+
+.service-h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
 }
