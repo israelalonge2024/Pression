@@ -11,3 +11,14 @@ a:hover {
 .faa {
   font-size: 20px;
 }
+
+.faa:hover {
+  color: blue;
+}
+
+.twi:hover {
+  color: rgb(62, 156, 194);
+}
+.insta:hover {
+  color: brown;
+}
