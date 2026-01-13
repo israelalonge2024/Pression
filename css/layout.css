@@ -276,4 +276,15 @@ nav {
 
 .footer-2 {
   display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+}
+.footer-2 p {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(9, 78, 105);
+}
+.learn-more {
+  width: 100px;
 }
