@@ -22,3 +22,10 @@ a:hover {
 .insta:hover {
   color: brown;
 }
+
+.icon {
+  transition: 0.2s ease-in-out;
+}
+.icon:hover {
+  transform: translateY(-3px);
+}
