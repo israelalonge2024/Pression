@@ -309,7 +309,8 @@ nav {
   justify-content: start;
   align-items: center;
   padding: 40px;
-  padding-right: 50px;
+  padding-bottom: 1px;
+  padding-right: 1px;
 }
 .other-h {
   flex: 6;
@@ -325,6 +326,30 @@ nav {
   width: 300px;
   height: 200px;
 }
+.other-main {
+  display: flex;
+}
 
 .other-im {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+
+  padding-top: 2px;
+}
+.other-x {
+  display: flex;
+  gap: 10px;
+}
+.other-v {
+  display: flex;
+  gap: 10px;
+}
+
+.other-im img {
+  object-fit: cover;
+  width: 600px;
+  height: 500px;
 }
