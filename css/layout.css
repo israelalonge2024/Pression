@@ -273,3 +273,7 @@ nav {
 .footer-1 div {
   flex: 1;
 }
+
+.footer-2 {
+  display: flex;
+}
